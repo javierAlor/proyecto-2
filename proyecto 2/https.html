@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>https</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+
+            <a href="index.html">
+                <h1>PROTOCOLO HTTP</h1>
+            </a>
+            <div class="nav">
+                <ul>
+                    <a href="index.html">inicio</a>
+                    <a href="uso.html">mensaje http</a>
+                    <a href="funciona.html">como funciona</a>
+                    <a href="uso.html">https</a>
+                </ul>
+            </div>
+        </div>
+        <H2>HTTPS</H2>
+
+        <img src="/img/http_to_https-1.jpg" style="align-items: center;" alt="">
+        <main>
+            <div class="contenido">
+                <p>
+                    Según la página web que visitemos, esta puede utilizar el protocolo HTTP o bien el protocolo HTTPS.
+                    Aunque a grandes rasgos ambos protocolos son iguales (son protocolos de transferencia de
+                    información), hay una diferencia muy grande entre ambos, y es que mientras que los datos que se
+                    solicitan a través de HTTP viajan desde el servidor al cliente en texto plano, sin cifrar ni
+                    asegurar, los datos que se transmiten a través de HTTPS viajan cifrados
+                </p>
+
+                <img src="/img/HTTP-vs-HTTPS.png" style="width: 470px; height: 292px;" alt="">
+                <p>
+                    Hypertext Transfer Protocol, más conocido como HTTP, es un protocolo de transferencia de datos entre
+                    servidor y cliente a través de Internet utilizado para poder navegar por la red y visitar páginas
+                    web. Las primeras versiones del protocolo HTTP datan de 1965, mientras que el protocolo HTTPS es
+                    mucho más nuevo, y no aparecieron las primeras conexiones a través de él hasta 1994, trayendo a este
+                    protocolo la «S» de «Secure» al brindarle esta capa de seguridad adicional.
+                </p>
+                <p>
+                    Mientras que el protocolo HTTP utiliza el puerto 80 para las conexiones, el protocolo HTTPS utiliza
+                    el puerto 443 para establecer las comunicaciones, aunque los usuarios no notemos diferencia al
+                    conectarnos a través de ninguno de estos protocolos.
+                </p>
+                <h2>¿Qué ventajas nos aportan las conexiones HTTPS?</h2>
+                <p>Inicialmente, las conexiones HTTPS utilizaban el protocolo de seguridad SSL (Secure Socket Layer)
+                    para proteger las conexiones de los usuarios al utilizar plataformas muy concretas, como PayPal o
+                    webs bancarias. Hoy en día, este protocolo ha cambiado SSL por TLS, (Transport Layer Security),
+                    protocolo que nos brinda mayor seguridad y mayor privacidad en nuestras conexiones.</p>
+                <p>
+                    Esta seguridad es, sin duda, la principal ventaja de las conexiones seguras HTTPS. Mientras que
+                    cualquier usuario puede interceptar el contenido de los paquetes HTTP, e incluso modificarlo en
+                    ataque MITM, las conexiones HTTPS no pueden ser espiadas, por lo que nadie sabrá qué tipo de
+                    información estamos intercambiando con el servidor. Además, estas conexiones no pueden ser
+                    modificadas en ataques MITM, por lo que tendremos la certeza de que los datos que intercambiamos con
+                    el servidor son legítimos, rechazando cualquier dato que no coincida con la firma del certificado de
+                    la web.
+                </p>
+
+            </div>
+
+        </main>
+    </header>
+    <footer>
+        <div class="footer">
+         
+            <p>Elaborado por: javier alor lopez</p>
+    
+
+    </footer>
+</body>
+
+</html>
